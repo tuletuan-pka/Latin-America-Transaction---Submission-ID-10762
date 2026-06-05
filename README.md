@@ -51,9 +51,5 @@ The following data sets correspond to Figure 16 and capture the calculated MIMO 
 
 ## 🚀 Usage
 
-1.  Clone this repository to your local machine:
-    ```bash
-    git clone [repository-url]
-    ```
-2.  **To view simulations:** Open ANSYS Electronics Desktop, select File > Open, and choose any of the `.aedt` files. Note that solving these projects may require significant computational resources depending on your mesh settings.
-3.  **To plot data:** Import the `.csv` or `.txt` files into your preferred data visualization script or software. The files are structured with headers for easy parsing.
+1.  **To view simulations:** Open ANSYS Electronics Desktop, select File > Open, and choose any of the `.aedt` files. Note that solving these projects may require significant computational resources depending on your mesh settings.
+2.  **To plot data:** Import the `.csv` or `.txt` files into your preferred data visualization script or software. The files are structured with headers for easy parsing.
