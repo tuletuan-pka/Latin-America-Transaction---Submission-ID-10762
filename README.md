@@ -6,6 +6,22 @@ This repository contains the supplementary simulation files, raw data, and measu
 The files are organized to directly correspond with the figures presented in the manuscript. 
 Based on the metrics included in the files (DG, ECC, MEG, TARC), this repository includes performance evaluation data for a Multiple-Input Multiple-Output (MIMO) antenna system.
 
+## 📈 Performance Summary
+
+The proposed single-layer dual-band antenna and its corresponding Multiple-Input Multiple-Output (MIMO) array configuration demonstrate robust performance metrics tailored for WiFi 6/6E communication systems.
+
+### Single Element Performance
+* **Operating Frequencies:** The design effectively covers two distinct resonant bands centered around 5.2 GHz and 6.6 GHz.
+* **Compact Footprint:** The optimized antenna achieves a low-profile and highly compact structure, occupying an overall electrical size of 0.52 λ × 0.52 λ × 0.03 λ at the lowest operating frequency of 5.2 GHz.
+* **Impedance Bandwidth:** Experimental results show measured -10 dB impedance bandwidths of 6.1% (5.12–5.44 GHz) for the lower band and 4.9% (6.40–6.72 GHz) for the upper band.
+* **Gain & Efficiency:** The prototype achieves measured peak broadside gains of 7.0 dBi in the lower band and 6.7 dBi in the upper band. Additionally, the antenna yields a high radiation efficiency of better than 88% across both frequency bands.
+* **Radiation Characteristics:** The antenna maintains stable, directional broadside radiation featuring a high front-to-back ratio (FBR) of approximately 20 dB. Furthermore, it exhibits stable linear polarization with very low cross-polarization levels, measured at approximately 25 dB lower than the co-polarized components.
+
+### 4 × 4 MIMO Configuration Performance
+* **Isolation & Spacing:** To achieve both spatial and polarization diversity, the four elements are arranged orthogonally with a compact edge-to-edge spacing of 3 mm. This arrangement secures port isolations greater than 20 dB across both operating bands.
+* **MIMO Peak Gain:** The simulated peak gains for the MIMO configuration reach 6.6 dBi and 6.9 dBi at the lower and higher bands, respectively.
+* **Diversity Metrics:** The configuration delivers excellent diversity performance, characterized by an Envelope Correlation Coefficient (ECC) below 0.02 and a Diversity Gain (DG) higher than 9.9 dB. Additionally, the Total Active Reflection Coefficient (TARC) is acceptable over the operating bands, and the Mean Effective Gain (MEG) remains balanced among all ports.
+
 ## 🛠 Software Requirements
 
 To fully utilize the files in this repository, you will need:
